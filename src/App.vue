@@ -1,12 +1,13 @@
 <template>
   <div id="app">
+	  <h2>{{$store.state.num}}</h2>
 	  <h2>---------jiajian代码----------</h2>
 	  <jiajian></jiajian>
 	  <h2>----------enci代码-------------</h2>
     <div id="nav">
       <router-link to="/">项目合作</router-link>
     </div>
-    
+    <router-view></router-view>
   </div>
 </template>
 
