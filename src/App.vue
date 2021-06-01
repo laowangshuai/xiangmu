@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+	  <h2>--------------APP代码-----------</h2>
 	  <h2>{{$store.state.num}}</h2>
+	  <button @click="bb">+</button>
+	  <button @click="aa">-</button>
 	  <h2>---------jiajian代码----------</h2>
 	  <jiajian></jiajian>
 	  <h2>----------enci代码-------------</h2>
@@ -21,9 +24,18 @@ import jiajian from './components/jiajian.vue'
 
 export default {
   name: 'App',
-  components:{
-	 jiajian,
-  },
+ components:{
+	jiajian,
+ },
+ methods:{
+	 bb(){
+		 this.$store.commit("bb")
+	 },
+	 aa(){
+		 this.$store.commit("aa")
+	 }
+ }
+
 	
  }
 </script>
