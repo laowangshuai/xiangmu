@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-	<button>+</button>10<button>-</button>
+	  <h2>别管这个</h2>
   </div>
 </template>
 
