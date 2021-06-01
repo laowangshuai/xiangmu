@@ -18,9 +18,9 @@ import jiajian from './components/jiajian.vue'
 
 export default {
   name: 'App',
- components:{
-	jiajian,
- },
+  components:{
+	 jiajian,
+  },
 	
  }
 </script>
