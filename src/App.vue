@@ -1,10 +1,12 @@
 <template>
   <div id="app">
+	  <h2>---------jiajian代码----------</h2>
 	  <jiajian></jiajian>
+	  <h2>----------enci代码-------------</h2>
     <div id="nav">
       <router-link to="/">项目合作</router-link>
     </div>
-    <router-view />
+    
   </div>
 </template>
 
