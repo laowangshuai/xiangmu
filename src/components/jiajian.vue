@@ -1,6 +1,8 @@
 <template>
-	<h2>1111</h2>
-	
+	<div>
+		<h2>{{$store.state.num}}</h2>
+		
+	</div>
 </template>
 
 <script>
@@ -8,13 +10,6 @@
 		name:'jiajian',
 	 
 	}
-
-	<div>
-		<h2>{{this.$store.state.num}}</h2>
-	</div>
-	
-     
-	
 </script>
 
 <style>
