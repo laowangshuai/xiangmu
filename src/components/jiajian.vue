@@ -9,6 +9,10 @@
 	export default{
 		name:'jiajian',
 	}
+
+
+
+
 </script>
 
 <style>
