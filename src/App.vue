@@ -24,7 +24,6 @@ import jiajian from './components/jiajian.vue'
 
 export default {
   name: 'App',
-<<<<<<< HEAD
  components:{
 	jiajian,
  },
@@ -36,11 +35,8 @@ export default {
 		 this.$store.commit("aa")
 	 }
  }
-=======
-  components:{
-	 jiajian,
-  },
->>>>>>> 36c12161f2e5b21d6b8dad000e74bf3d8b13718d
+
+
 	
  }
 </script>
