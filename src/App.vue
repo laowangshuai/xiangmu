@@ -1,11 +1,15 @@
 <template>
   <div id="app">
 	  <jiajian></jiajian>
+    <div id="nav">
+      <router-link to="/">项目合作</router-link>
+    </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+
 
 </style>
 <script>
@@ -16,13 +20,6 @@ export default {
  components:{
 	jiajian,
  },
- comments:{
 	
- },
- mounted() {
-	console.log(this.$router)
-}
- 
-}
-
+ }
 </script>
