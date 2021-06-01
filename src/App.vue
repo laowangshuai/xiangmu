@@ -7,6 +7,7 @@
     <div id="nav">
       <router-link to="/">项目合作</router-link>
     </div>
+
     <router-view></router-view>
   </div>
 </template>

@@ -8,6 +8,13 @@
 		name:'jiajian',
 	 
 	}
+
+	<div>
+		<h2>{{this.$store.state.num}}</h2>
+	</div>
+	
+     
+	
 </script>
 
 <style>
